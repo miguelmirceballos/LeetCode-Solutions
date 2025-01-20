@@ -12,27 +12,27 @@ You have the four functions:
 ```
 
 You are given an instance of the class FizzBuzz that has four functions: fizz, buzz, fizzbuzz and number. The same instance of FizzBuzz will be passed to four different threads:
-
-    Thread A: calls `fizz()` that should output the word "fizz".
+``` Java
+    Thread A: calls fizz() that should output the word "fizz".
     Thread B: calls `buzz()` that should output the word "buzz".
     Thread C: calls `fizzbuzz()` that should output the word "fizzbuzz".
     Thread D: calls `number()` that should only output the integers.
-
+```
 Modify the given class to output the series `[1, 2, "fizz", 4, "buzz", ...]` where the ith token `(1-indexed)` of the series is:
 
-    `"fizzbuzz"` if i is divisible by 3 and 5,
-    `"fizz"` if i is divisible by 3 and not 5,
-    `"buzz"` if i is divisible by 5 and not 3, or
-    `i` if i is not divisible by 3 or 5.
+    "fizzbuzz" if i is divisible by 3 and 5,
+    "fizz" if i is divisible by 3 and not 5,
+    "buzz" if i is divisible by 5 and not 3, or
+    i if i is not divisible by 3 or 5.
 
 Implement the FizzBuzz class:
-
-    `FizzBuzz(int n)` Initializes the object with the number n that represents the length of the sequence that should be printed.
-    `void fizz(printFizz)` Calls printFizz to output "fizz".
-    `void buzz(printBuzz)` Calls printBuzz to output "buzz".
-    `void fizzbuzz(printFizzBuzz)` Calls printFizzBuzz to output "fizzbuzz".
-    `void number(printNumber)` Calls printnumber to output the numbers.
- 
+```Java
+    FizzBuzz(int n) Initializes the object with the number n that represents the length of the sequence that should be printed.
+    void fizz(printFizz) Calls printFizz to output "fizz".
+    void buzz(printBuzz) Calls printBuzz to output "buzz".
+    void fizzbuzz(printFizzBuzz) Calls printFizzBuzz to output "fizzbuzz".
+    void number(printNumber) Calls printnumber to output the numbers.
+ ```
 
 Example 1:
 ```Java
