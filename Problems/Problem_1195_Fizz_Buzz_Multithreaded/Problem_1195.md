@@ -2,6 +2,8 @@
 
 You have the four functions:
 
+```Java
+
     printFizz that prints the word "fizz" to the console,
     printBuzz that prints the word "buzz" to the console,
     printFizzBuzz that prints the word "fizzbuzz" to the console, and
