@@ -18,13 +18,13 @@ Each folder corresponds to a specific problem and may contain multiple implement
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Leetcode-Solutions.git
+git clone https://github.com/miguelmirceballos/LeetCood-Solutions.git
 ```
 
 2. Navigate to the folder of the problem you want to explore:
 
 ```bash
-cd problem
+cd Problems
 ```
 
 3. Choose the solution in your preferred language and run it using the standard command. For example, in Python:
